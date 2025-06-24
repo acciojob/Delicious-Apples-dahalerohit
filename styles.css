@@ -1,1 +1,80 @@
 /* your code here */
+.box1{
+    width:300px;
+    height:350px;
+    background-color: RGB(185, 234, 72);
+    margin-top: 100px;
+    position: relative;
+    left: 250px;
+    overflow: visible;
+}
+.photo-main>img{
+width:250px;
+height: 200px;
+margin-top: 180px;
+
+
+
+}
+.photo-album{
+
+    width:300px;
+    height:50px;
+    position: relative;
+    left: 260px;
+}
+.photo-album>ul{
+    display: flex;
+    
+   
+}
+.apk{
+    width:50px;
+    height:50px;
+    border: 1px solid black;
+}
+body{
+    background-color: RGB(16, 227, 127);
+}
+.main-csk{
+    background-color: white;
+    width: 600px;
+    height:500px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+
+}
+.price{
+    color: red;
+    font-size: 40px;
+}
+.variant>ul{
+    display: flex;
+}
+.variant>ul>li>img{
+    width: 20px;
+    height: 30px;
+}
+.btn1{
+    background-color: red;
+    color: white;
+    width:130px;
+    height: 40px;
+    border-radius: 5px;
+}
+.photo-container{
+    display: flex;
+    
+    
+
+}
+.photo-main{
+    position: relative;
+    left: 470px;
+    z-index: 2;
+}
+
+
+
+
